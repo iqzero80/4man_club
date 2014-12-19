@@ -33,6 +33,7 @@ public class MainActivity extends ActionBarActivity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             Log.i("커밋1", "커밋1 테스트 입니다.");
+            Log.i("커밋2", "커밋2 테스트 입니다.");
             return true;
         }
 
