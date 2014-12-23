@@ -5,4 +5,11 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
+    <!-- 로그인 화면 -->
+    <string name="login_id">email</string>
+    <string name="login_pass">비밀번호</string>
+    <string name="login_btn">로그인</string>
+    <string name="find_pass">비밀 번호 찾기</string>
+    <string name="member_regist">회원가입</string>
+    <string name="auto_login">자동 로그인</string>
 </resources>

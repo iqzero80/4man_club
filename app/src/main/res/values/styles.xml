@@ -5,4 +5,16 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="IntroTheme" parent="android:Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@drawable/ic_intro</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="LoginTheme" parent="android:Theme.Light.NoTitleBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
 </resources>

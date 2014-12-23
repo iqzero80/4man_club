@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:gravity="center"
+    >
+
+<!--    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="로그인"
+        android:visibility="gone"
+        android:id="@+id/show1"
+        android:textSize="10pt"
+        />-->
+
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/id"
+        android:hint="@string/login_id"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pass"
+        android:hint="@string/login_pass"
+        android:singleLine="true"
+        />
+    <CheckBox
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/auto_login"
+        android:text="@string/auto_login"
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_btn"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/highlighted_text_material_light"
+        android:background="@color/material_deep_teal_200"
+        android:layout_margin="5dp"
+        android:onClick="clickLogin"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+        android:text="@string/find_pass"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/highlighted_text_material_light"
+        android:background="@color/material_deep_teal_200"
+        android:layout_margin="5dp"
+        android:onClick="findPassword"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/member_regist"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/highlighted_text_material_light"
+        android:background="@color/material_deep_teal_200"
+        android:layout_margin="5dp"
+        android:onClick="memberRegist"
+        />
+</LinearLayout>
