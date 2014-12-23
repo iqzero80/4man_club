@@ -1,13 +1,17 @@
 package com.freelancer.club.bowling;
 
-import android.support.v7.app.ActionBarActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class MainActivity extends ActionBarActivity {
+
+    public final static String EXTRA_MESSAGE = "com.freelancer.club.bowling.MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,5 +43,17 @@ public class MainActivity extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void goSignUp(View view) {
+        Intent intent = new Intent(this, SignUpActivity.class);
+        intent.putExtra(EXTRA_MESSAGE, "go sign up...");
+        startActivity(intent);
+    }
+
+    public void goFindPassword(View view) {
+        Intent intent = new Intent(this, FindPasswordActivity.class);
+        intent.putExtra(EXTRA_MESSAGE, "go find password...");
+        startActivity(intent);
     }
 }

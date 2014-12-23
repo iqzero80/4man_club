@@ -16,6 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:label="@string/title_activity_sign_up"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.freelancer.club.bowling.MainActivity" />
+        </activity>
+        <activity
+            android:name=".FindPasswordActivity"
+            android:label="@string/title_activity_find_password"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.freelancer.club.bowling.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

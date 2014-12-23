@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Bowling</string>
+    <string name="app_name">볼링클럽</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_up">회원가입</string>
+    <string name="title_activity_find_password">비밀번호 찾기</string>
 
 </resources>
